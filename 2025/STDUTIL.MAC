@@ -1,0 +1,29 @@
+;title  Standard Utility Macro Module
+        ; This file contains generic macros for a
+        ; wide range of applications.
+
+pushreg macro
+        push    ax
+        push    bx
+        push    cx
+        push    dx
+        push    si
+        push    di
+        push    ds
+        push    es
+        push    bp
+endm
+
+popreg  macro
+        pop     bp
+        pop     es
+        pop     ds
+        pop     di
+        pop     si
+        pop     dx
+        pop     cx
+        pop     bx
+        pop     ax
+endm
+
+

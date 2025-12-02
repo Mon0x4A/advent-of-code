@@ -1,0 +1,11 @@
+;title   Standard Utility Constants Module
+        ; This module contains constants for a
+        ; wide range of applications.
+
+;Constants
+DOS_INTERRUPT                   equ     21h
+TERM_PROCESS_INT                equ     4Ch
+
+PARAGRAPH_BYTE_CNT              equ     16
+
+
